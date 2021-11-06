@@ -9,15 +9,34 @@ main , .header , .trybewarts-login , #evaluation-form {
 }
 
 .header{  
+  align-items: center;
   justify-content: space-between;
   background-color: rgb(50, 167, 145);
 }
 
-/* .trybewarts-login{  
-} */
+.trybewarts-header-logo {
+  width: 80px;
+  margin: 10px 20px;
+}
 
-/* main{ 
-} */
+#trybewarts-header-title {
+  color: white;
+}
+
+.trybewarts-login {
+  width: 560px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.trybewarts-login input, .trybewarts-login button {
+  width: 175px;
+  border-radius: 10px;
+}
+
+.trybewarts-login button{
+  background-color: #221F3B;
+}
 
 #evaluation-form {
   width: 675px;
@@ -35,4 +54,19 @@ main , .header , .trybewarts-login , #evaluation-form {
 
 .radio-container {
   display: flex;  
+}
+
+main {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+footer {
+  background-color: #050505;
+  text-align: center;
+  margin-top: 100px;
+  color: white;
+  padding: 10px;
 }
