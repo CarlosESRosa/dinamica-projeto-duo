@@ -36,3 +36,13 @@ main , .header , .trybewarts-login , #evaluation-form {
 .radio-container {
   display: flex;  
 }
+
+.radio-btn {
+  margin-left: 5px;
+}
+
+textarea {
+  height: 60px;
+  min-height: 40px;
+  max-height: 100px;
+}
