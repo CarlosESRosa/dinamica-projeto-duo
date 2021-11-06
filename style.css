@@ -56,6 +56,16 @@ main , .header , .trybewarts-login , #evaluation-form {
   display: flex;  
 }
 
+
+.radio-btn {
+  margin-left: 5px;
+}
+
+textarea {
+  height: 60px;
+  min-height: 40px;
+  max-height: 100px;
+
 main {
   margin-top: 100px;
   display: flex;
@@ -69,4 +79,5 @@ footer {
   margin-top: 100px;
   color: white;
   padding: 10px;
+
 }
